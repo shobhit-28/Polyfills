@@ -17,4 +17,4 @@ Each file in the repo includes a standalone polyfill for a JavaScript feature or
 Clone the repository and run any file directly with Node:
 
 ```bash
-node map.js
+node polyfills/map.js
