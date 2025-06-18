@@ -15,6 +15,7 @@ This repository is my personal learning space for exploring how JavaScript works
 - `Array.prototype.forEach`
 - `Array.prototype.map`
 - `Array.prototype.reduce`
+- `Array.prototype.bind`
 
 #### 🧠 Core Concepts
 - **Debouncing** – See: `Some Core Concepts/debounce_example`
