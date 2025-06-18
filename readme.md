@@ -1,20 +1,34 @@
-# JavaScript Polyfills Practice
+# JavaScript Polyfills & Core Concepts Practice
 
-This repository is a personal collection of JavaScript polyfills that I've implemented to better understand how native JavaScript features work under the hood. Each polyfill is written from scratch, mimicking the behavior of native methods in environments that may not support them.
+This repository is my personal learning space for exploring how JavaScript works under the hood. It includes **polyfills** for native features and hands-on implementations of **core concepts** like debouncing and throttling.
 
 ## 📁 Structure
 
-Each file in the repo includes a standalone polyfill for a JavaScript feature or method. Examples and test cases are included to verify the behavior.
+- `polyfills/` – Rewritten versions of native JavaScript methods
+- `Some Core Concepts/` – Simple, practical examples of important JavaScript fundamentals
 
-## ✅ Goals
+### Currently Implemented
 
-- Deepen understanding of how core JavaScript features work.
-- Improve problem-solving and low-level JavaScript skills.
-- Build a reusable library of polyfills for reference or use.
+#### ✅ Polyfills
+- `Array.prototype.filter`
+- `Array.prototype.flat`
+- `Array.prototype.forEach`
+- `Array.prototype.map`
+- `Array.prototype.reduce`
 
-## 🔧 How to Use
+#### 🧠 Core Concepts
+- **Debouncing** – See: `Some Core Concepts/debounce_example`
+- **Throttling** – See: `Some Core Concepts/throttle_example`
 
-Clone the repository and run any file directly with Node:
+## 🎯 Goals
+
+- Understand how native JavaScript methods work internally
+- Reinforce my understanding of common JavaScript behaviors
+- Build confidence writing logic from scratch without relying on built-ins
+
+## 🔧 How to Run
+
+Clone the repo and run any file using Node.js:
 
 ```bash
 node polyfills/map.js
